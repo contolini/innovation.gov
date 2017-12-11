@@ -5,6 +5,10 @@
 /* @group bootstrap */
 
 
+.hidden{
+  display: none;
+}
+
 html,
 body {
   background: #d5d6d9;
@@ -151,30 +155,36 @@ footer.usa-footer{
 
 .toolkit-home-better-gov-callout {
   background-color: #fff;
-  text-align: center;
+  text-align: left;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-top: 2em;
   margin-bottom: 3em;
   text-decoration: none;
-  border: solid 1px #1C304A;
-
 }
 
-.toolkit-home-better-gov-callout h2 {
-  margin-top: -1em !important;
-  background-color: #fff;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
-  width: 600px;
-  margin: 0 auto;
+.toolkit-home-better-gov-callout h4{
+  font-size: 2.8rem;
+}
+.toolkit-home-better-gov-callout ul {
+  padding: 0;
+}
+.toolkit-home-better-gov-callout ul ul {
+  padding-left: 1.94em;
+}
+.toolkit-home-better-gov-callout li {
+  list-style-type: none;
+  font-size: 2rem;
+}
+.toolkit-home-better-gov-callout li li {
+  list-style-type: disc;
 }
 
 .toolkit-home-better-gov-callout a {
   text-decoration: none;
 }
 
-.toolkit-home-callout-text-red {
+/*.toolkit-home-callout-text-red {
   text-align: left;
   border-left: 6px solid #D42947;
   padding-left: 1.5em;
@@ -196,7 +206,7 @@ footer.usa-footer{
   text-align: left;
   border-left: 6px solid #F4B631;
   padding-left: 1.5em;
-}
+}*/
 
 .toolkit-button-group {
   margin-bottom: -6.5em;
