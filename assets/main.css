@@ -164,25 +164,34 @@ footer.usa-footer{
 }
 
 .toolkit-home-better-gov-callout h4{
+  margin:0 0 15px 0;
   font-size: 2.8rem;
 }
 .toolkit-home-better-gov-callout ul {
-  padding: 0;
+  /*padding: 0;*/
 }
 .toolkit-home-better-gov-callout ul ul {
-  padding-left: 1.94em;
+  /*padding-left: 1.94em;*/
 }
 .toolkit-home-better-gov-callout li {
-  list-style-type: none;
   font-size: 2rem;
-}
-.toolkit-home-better-gov-callout li li {
-  list-style-type: disc;
 }
 
 .toolkit-home-better-gov-callout a {
   text-decoration: none;
 }
+.toolkit-home-better-gov-callout a:hover {
+  text-decoration: underline;
+}
+
+.toolkit-home-better-gov-callout .vertical{
+  margin-bottom: 30px;
+}
+
+.toolkit-home-better-gov-callout .vertical .icon{
+  width: 45px;
+}
+
 
 /*.toolkit-home-callout-text-red {
   text-align: left;
